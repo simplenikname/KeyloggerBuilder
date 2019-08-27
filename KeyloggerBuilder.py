@@ -18,7 +18,7 @@ with open('template.py', 'r') as template:
 			counter += 1
 			if counter == 44:
 				vir.write(f'	s = Sender("{email}", "{password}")\n')
-			elif counter == 70:
+			elif counter == 69:
 				vir.write(f'		if COUNT_OF % {count} == 0: #flag')
 			else:
 				vir.write(line)
